@@ -1,0 +1,1 @@
+days = int(input("в "))
