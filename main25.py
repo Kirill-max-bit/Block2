@@ -6,16 +6,12 @@ def calculate_n(x):
 
 
 def find_x(n):
-    
     last_digit_n = n % 10
- 
     quotient_n = n // 10
- 
     x = last_digit_n * 10 + quotient_n
     return x
 
 n = int(input("Введите число n (10 <= n <= 999, десятков не равно нулю): "))
-
 if 10 <= n <= 999 and (n // 10) % 10 != 0:
    x = find_x(n)
    print(f"Найденное число x: {x}")
