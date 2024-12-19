@@ -25,8 +25,8 @@ def find_digit_info(k):
         'четность': 'четная' if k % 2 == 0 else 'нечетная'
     }
 
-# Пример использования функции
-k = 10  # Замените k на нужное значение
+
+k = 10 
 result = find_digit_info(k)
 print(result)
 
